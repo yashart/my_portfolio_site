@@ -1,0 +1,87 @@
+.timeline-wrap-div {
+}
+.timeline-header-text {
+  text-align: center;
+}
+.timeline-icons-tooltip {
+  font-style: italic;
+}
+
+.MuiChip-filled {
+  background-color: ivory;
+}
+
+.timeline-date--work {
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+.timeline-content--work .vertical-timeline-element-content {
+  background: #ba68c8;
+  color: #fff;
+}
+.timeline-content--work .vertical-timeline-element-content-arrow {
+   border-right: 7px solid #ba68c8
+}
+.timeline-icon--work {
+  background: #9c27b0;
+  color: #fff;
+}
+
+
+.timeline-date--volunteer {
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+.timeline-content--volunteer .vertical-timeline-element-content {
+  background: #ff9800;
+  color: #fff;
+}
+.timeline-content--volunteer .vertical-timeline-element-content-arrow {
+   border-right: 7px solid #ff9800
+}
+.timeline-icon--volunteer {
+  background: #ed6c02;
+  color: #fff;
+}
+
+
+.timeline-date--education {
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+.timeline-content--education .vertical-timeline-element-content {
+  background: #03a9f4;
+  color: #fff;
+}
+.timeline-content--education .vertical-timeline-element-content-arrow {
+   border-right: 7px solid #03a9f4
+}
+.timeline-icon--education {
+  background: #0288d1;
+  color: #fff;
+}
+
+
+.timeline-date--pet {
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+.timeline-content--pet .vertical-timeline-element-content {
+  background: #4caf50;
+  color: #fff;
+}
+.timeline-content--pet .vertical-timeline-element-content-arrow {
+   border-right: 7px solid #4caf50
+}
+.timeline-icon--pet {
+  background: #2e7d32;
+  color: #fff;
+}

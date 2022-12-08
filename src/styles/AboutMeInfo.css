@@ -1,0 +1,29 @@
+.about-me-container {
+  background-color: rgb(21, 113, 193);
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.about-title {
+  color: white;
+  text-align: center;
+}
+
+.about-subtitle {
+  color: white;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.about-text {
+  color: white;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  text-align: inherit;
+  font-weight: lighter;
+}
+
+.contact-github-link {
+  color: white !important;
+  text-decoration-color: white !important;
+}

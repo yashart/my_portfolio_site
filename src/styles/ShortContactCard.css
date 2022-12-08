@@ -1,0 +1,12 @@
+.short-contact-padding {
+  //padding: 20px;
+}
+
+.MuiCard-root.short-contact-card {
+    //padding: 20px;
+    display: flex;
+    border: 0px solid rgba(0, 0, 0, 0.12);
+    width: fit-content;
+    background-color: rgb(21, 113, 193);
+    color: white;
+}

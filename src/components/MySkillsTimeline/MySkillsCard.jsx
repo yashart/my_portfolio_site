@@ -59,7 +59,7 @@ function MySkillsCard(props) {
       {labels_view}
       <Typography variant="h4">{props.title}</Typography>
       <Typography variant="h5">{props.subtitle}</Typography>
-      <Typography>
+      <Typography style={{whiteSpace: "pre-line"}}>
         {props.text}
       </Typography>
       {photo_link}

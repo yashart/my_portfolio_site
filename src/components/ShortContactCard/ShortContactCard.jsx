@@ -19,7 +19,7 @@ function ShortContactCard () {
       <Card className="short-contact-card" variant="outlined">
         <CardMedia
           component="img"
-          image="static/imgs/test.jpeg"
+          image="static/imgs/my_portfolio_photo.jpg"
           sx={{ width: 250 }}
         />
         <Box sx={{ display: 'flex', flexDirection: 'column' }}>
@@ -35,7 +35,7 @@ function ShortContactCard () {
             </Typography>
             <br />
             <Typography variant="subtitle1" component="div">
-              Email: yashart at mail d0t ru
+              Email: <a style={{color:"white"}} href="mailto:yashart@mail.ru" target="_blink">yashart@mail.ru</a>
             </Typography>
             <Link
               href="http://github.com/yashart"
@@ -54,7 +54,6 @@ function ShortContactCard () {
               Download CV
             </Button>
           </CardContent>
-
         </Box>
       </Card>
     </div>

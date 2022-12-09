@@ -45,7 +45,7 @@ function MySkillsTimeline() {
             </VerticalTimelineElement>
           );
         }
-        if ((skill.type === "volunteer") && ((skill_data_state === 0) || (skill_data_state === 2))) {
+        if ((skill.type === "volonteur") && ((skill_data_state === 0) || (skill_data_state === 2))) {
           return (
             <VerticalTimelineElement
               className="timeline-content--volunteer"
@@ -198,10 +198,10 @@ function MySkillsTimeline() {
           variant="contained"
           color="rose"
           onClick={() => {
-            setSkillLabel("Machine Learning");
+            setSkillLabel("Computer Vision");
           }}
         >
-          Machine Learning
+          Computer Vision
         </Button>
         <span> </span>
         <Button

@@ -17,7 +17,7 @@ function AboutMeInfo () {
         Hi, I'm Yashukhin Artem
       </Typography>
       <Typography className="about-subtitle" variant="h4">
-        Robotics & Computer Vision developer
+        Robotics & Computer Vision engineer
       </Typography>
       <Grid container>
         <Grid item md={6}>

@@ -198,10 +198,10 @@ function MySkillsTimeline() {
           variant="contained"
           color="rose"
           onClick={() => {
-            setSkillLabel("Computer Vision");
+            setSkillLabel("Computer Vision(ML)");
           }}
         >
-          Computer Vision
+          Computer Vision(ML)
         </Button>
         <span> </span>
         <Button

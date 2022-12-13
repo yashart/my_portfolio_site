@@ -1,25 +1,33 @@
 export const MY_SKILLS_DATA = [
   {
     id: 1,
-    type: "education",
-    date: "2014 - 2018",
-    title: "Bachelor degree",
-    subtitle: "MIPT, Moscow Institute of Physics and Technology",
-    text: "Diploma: Applied Mathematics and Physics",
-    labels: ["Science"],
-    photo: "",
+    type: "work",
+    date: "2020-present",
+    title: "Agrobit LLC",
+    subtitle: "Software engineer, head of software departament since 2022",
+    text: "A lot of interesting and ambicious work:\n\n\
+    1. Custom manipulator for egg collection\n\
+    2. Visual egg detection and tracking\n\
+    3. SLAM navigation using RTABMap\n\
+    4. SLAM using google cartographer\n\
+    5. Tools for create and edit map paths\n\
+    6. Death chicken detection\n\
+    7. Web interfaces for joystick and telemetry info\n\
+    8. etc",
+    labels: ["ROS", "Open CV", "Computer Vision(ML)", "Web"],
+    photo: "static/imgs/agrobit.png",
     link: "",
   },
   {
     id: 2,
-    type: "education",
-    date: "2017",
-    title: "True random number generator in FGPA",
-    subtitle: "60th MIPT Scientific Conference (172-173 pages)",
-    text: "",
-    labels: ["Science"],
-    photo: "",
-    link: "https://abitu.net/public/admin/mipt-conference/FRKT.pdf",
+    type: "volonteur",
+    date: "2014-present",
+    title: "Teacher of IT in summer school",
+    subtitle: "Principal in 2019-2021",
+    text: "Summer school is a big part of my life. Every year ~40 students of main universities of the country make a 3-week children's camp for 60-120 children. We are absolute indipendent and no one get money for this.",
+    labels: ["Social"],
+    photo: "static/imgs/will_code_for_food.jpg",
+    link: "http://lmsh.edu.ru",
   },
   {
     id: 3,
@@ -56,58 +64,6 @@ export const MY_SKILLS_DATA = [
   },
   {
     id: 6,
-    type: "education",
-    date: "2020",
-    title: "Investigation of the possibility of determining the satellite position by visual keypoints",
-    subtitle: "",
-    text: "Writing algorithm for get visual descriptors using 3d model and textures, test it using data from blender animation",
-    labels: ["Science", "OpenCV"],
-    photo: "static/imgs/sputnik.png",
-    link: "",
-  },
-  {
-    id: 7,
-    type: "pet",
-    date: "2019",
-    title: "Real-time 3D scene using several kinects and mono cameras",
-    subtitle: "",
-    text: "Use data from several kinects point clouds and high res cameras in one space to make all sides 3d",
-    labels: ["ROS"],
-    photo: "",
-    link: "",
-  },
-  {
-    id: 8,
-    type: "volonteur",
-    date: "2014-present",
-    title: "Teacher of IT in summer school",
-    subtitle: "Principal in 2019-2021",
-    text: "Summer school is a big part of my life. Every year ~40 students of main universities of the country make a 3-week children's camp for 60-120 children. We are absolute indipendent and no one get money for this.",
-    labels: ["Social"],
-    photo: "static/imgs/will_code_for_food.jpg",
-    link: "http://lmsh.edu.ru",
-  },
-  {
-    id: 9,
-    type: "work",
-    date: "2020-present",
-    title: "Agrobit LLC",
-    subtitle: "Software engineer, head of software departament since 2022",
-    text: "A lot of interesting and ambicious work:\n\n\
-    1. Custom manipulator for egg collection\n\
-    2. Visual egg detection and tracking\n\
-    3. SLAM navigation using RTABMap\n\
-    4. SLAM using google cartographer\n\
-    5. Tools for create and edit map paths\n\
-    6. Death chicken detection\n\
-    7. Web interfaces for joystick and telemetry info\n\
-    8. etc",
-    labels: ["ROS"],
-    photo: "static/imgs/agrobit.png",
-    link: "",
-  },
-  {
-    id: 10,
     type: "pet",
     date: "2021",
     title: "Online labeling tool for photos",
@@ -119,15 +75,59 @@ export const MY_SKILLS_DATA = [
     link: "",
   },
   {
-    id: 11,
+    id: 7,
+    type: "education",
+    date: "2020",
+    title: "Investigation of the possibility of determining the satellite position by visual keypoints",
+    subtitle: "",
+    text: "Writing algorithm for get visual descriptors using 3d model and textures, test it using data from blender animation",
+    labels: ["Science", "Open CV"],
+    photo: "static/imgs/sputnik.png",
+    link: "",
+  },
+  {
+    id: 8,
     type: "work",
     date: "2016-2019",
     title: "NDA",
     subtitle: "Software engineer",
     text: "Tools for photogrammetric image processing.\n\
     Software for agricultural drones.",
-    labels: ["OpenCV", "QT"],
+    labels: ["Open CV", "QT"],
     photo: "",
     link: ""
+  },
+  {
+    id: 9,
+    type: "pet",
+    date: "2019",
+    title: "Real-time 3D scene using several kinects and mono cameras",
+    subtitle: "",
+    text: "Use data from several kinects point clouds and high res cameras in one space to make all sides 3d",
+    labels: ["ROS", "Open CV"],
+    photo: "",
+    link: "",
+  },
+  {
+    id: 10,
+    type: "education",
+    date: "2014 - 2018",
+    title: "Bachelor degree",
+    subtitle: "MIPT, Moscow Institute of Physics and Technology",
+    text: "Diploma: Applied Mathematics and Physics",
+    labels: ["Science"],
+    photo: "",
+    link: "",
+  },
+  {
+    id: 11,
+    type: "education",
+    date: "2017",
+    title: "True random number generator in FGPA",
+    subtitle: "60th MIPT Scientific Conference (172-173 pages)",
+    text: "",
+    labels: ["Science"],
+    photo: "",
+    link: "https://abitu.net/public/admin/mipt-conference/FRKT.pdf",
   }
 ];

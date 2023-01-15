@@ -18,7 +18,15 @@
 .about-text {
   color: white;
   padding-left: 40px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+  text-align: inherit;
+  font-weight: lighter;
+}
+
+.about-text-title {
+  color: #eccf32;
+  padding-left: 40px;
+  padding-bottom: 10px;
   text-align: inherit;
   font-weight: lighter;
 }

@@ -15,7 +15,7 @@ function HireInfo() {
       </Typography>
       <Typography variant="h4">
         <br />
-        Looking for a job as a Robotics developer or Computer vision engineer
+        Looking for a job as a Robotics developer or Computer vision engineer.
       </Typography>
       <Typography variant="h5">
         <br />

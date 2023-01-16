@@ -26,7 +26,7 @@ function AboutMeInfo () {
             My main skills
           </Typography>
           <Typography className="about-text" variant="h6">
-            <CircleIcon fontSize="small" /> Wheeled robots and manipulators (Robotics Operating System (ROS))
+            <CircleIcon fontSize="small" /> Wheeled robots and manipulators (Robot Operating System (ROS))
           </Typography>
           <Typography className="about-text" variant="h6">
             <CircleIcon fontSize="small" /> Classical and ML computer vision (especially object recognition and tracking)

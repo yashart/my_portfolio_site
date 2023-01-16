@@ -50,6 +50,9 @@ function ShortContactCard () {
             <Button
               variant="contained"
               color="primary"
+              href="static/CV_Yashukhin_Artem.pdf"
+              target="_blank"
+              rel="noreferrer"
             >
               Download CV
             </Button>
